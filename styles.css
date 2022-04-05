@@ -53,31 +53,31 @@ footer {
 
 }
 
-@media (max-width: 501px) {
+@media (max-width: 500px) {
   .btn {
     background-color: #4ECCA3;
     border-radius: 30px;
     border: #232931;
-    margin-top: -27px;
-    font-size: 69px;
+    margin-top: 0px;
+    font-size: 30px;
     font-family: 'Indie Flower', cursive;
   }
 
   .icon {
-    font-size: 48px;
+    font-size: 20px;
   }
 
   h1 {
     margin: 30px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
-    font-size: 147px;
+    font-size: 50px;
     color: #4ECCA3;
   }
 
 
   p {
-    font-size: 4rem;
+    font-size: 1rem;
     color: #4ECCA3;
     font-family: 'Indie Flower', cursive;
   }
@@ -85,11 +85,13 @@ footer {
   footer {
     margin-top: 26%;
     color: #EEEEEE;
-    font-size: 38px;
+    font-size: 20px;
     text-align: center;
     font-family: 'Indie Flower', cursive;
-}
+  }
 
-
-
+  img {
+    width: 30%;
+    height: 30%;
+  }
 }
