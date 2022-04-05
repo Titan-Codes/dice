@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.btn{
+.btn {
   background-color: #4ECCA3;
   border-radius: 30px;
   border: #232931;
@@ -13,7 +13,7 @@
   font-family: 'Indie Flower', cursive;
 }
 
-.icon{
+.icon {
   font-size: 20px;
 }
 
@@ -50,5 +50,46 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+
+}
+
+@media (max-width: 501px) {
+  .btn {
+    background-color: #4ECCA3;
+    border-radius: 30px;
+    border: #232931;
+    margin-top: -27px;
+    font-size: 69px;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .icon {
+    font-size: 48px;
+  }
+
+  h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 147px;
+    color: #4ECCA3;
+  }
+
+
+  p {
+    font-size: 4rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  footer {
+    margin-top: 26%;
+    color: #EEEEEE;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+
 
 }
